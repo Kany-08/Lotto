@@ -48,7 +48,7 @@ export default class LuckyNumbers extends Component {
                     {this.state.arrayNumber.map((currentValue) => {
                     return <Number number={currentValue}/>;
                 })}
-                {this.state.specialNumber && <Number number={this.state.specialNumber} />}
+                {this.state.specialNumber && <span><Number number={this.state.specialNumber} /></span>}
 
                 
                 </div>
